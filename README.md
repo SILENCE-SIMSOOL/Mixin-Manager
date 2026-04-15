@@ -46,6 +46,6 @@ After configuration, run it again to update your JSON file automatically.
 
 ---
 
-## 📝 License (라이선스)
+## 📝 [License (라이선스)](https://github.com/SILENCE-SIMSOOL/Mixin-Manager/blob/main/LICENSE)
 이 프로젝트는 자유롭게 수정 및 배포가 가능합니다.
 This project is free to modify and distribute.
