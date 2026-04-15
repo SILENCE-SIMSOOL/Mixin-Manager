@@ -1,0 +1,27 @@
+{
+	"required": true,
+	"package": "silence.simsool.lucentclient.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"mixins": [],
+	"client": [
+		"accessors.AccessorChatComponent",
+		"accessors.AccessorKeyBind",
+		"accessors.AccessorOrderedTextTooltipComponent",
+		"mixins.chatting.MixinChatComponent_Chatting",
+		"mixins.chatting.MixinChatComponent__ChattingRenderFlag",
+		"mixins.chatting.MixinChatScreen_Chatting",
+		"mixins.chatting.MixinGuiGraphics_Chatting",
+		"mixins.MixinBossHealthOverlay",
+		"mixins.MixinClientPacketListener",
+		"mixins.MixinDebugScreenOverlay",
+		"mixins.MixinEntityRenderer",
+		"mixins.MixinGameRenderer",
+		"mixins.MixinGui",
+		"mixins.scrollabletooltips.MixinGuiGraphics_ScrollableTooltips",
+		"mixins.scrollabletooltips.MixinMouse_ScrollableTooltips",
+		"mixins.scrollabletooltips.MixinScreen_ScrollableTooltips"
+	]
+}
