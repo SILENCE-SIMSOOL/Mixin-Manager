@@ -1,1 +1,1 @@
-gcc main.c -o MixinManager-1.0.0.exe
+gcc main.c -o MixinManager-1.1.0.exe

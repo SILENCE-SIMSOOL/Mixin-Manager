@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <windows.h>
+#include <conio.h>
 
 #define MAX_PATH_LEN 1024
 #define BUFFER_SIZE 524288
@@ -83,8 +84,8 @@ int main() {
 		printf("Config created at mixinmanager/config.json\n");
 		printf("Please check the paths and run again.\n");
 		printf("--------------------------------------------------\n");
-		printf("\nPress Enter to exit...");
-		getchar();
+		printf("\nPress any key to exit...");
+		_getch();
 		return 0;
 	}
 
@@ -148,7 +149,7 @@ int main() {
 
 end:
 	free(mixin_list);
-	printf("\nPress Enter to exit...");
-	getchar(); 
+	printf("\nPress any key to exit...");
+	_getch();
 	return 0;
 }
